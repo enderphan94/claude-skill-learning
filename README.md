@@ -70,17 +70,15 @@ with pdfplumber.open("file.pdf") as pdf:
 
 ### Directory Structure
 
-```
-skill-name/
-├── SKILL.md              # Entry point (≤200 lines)
-├── references/
-│   ├── detailed-guide.md  # Loaded only when needed
-│   ├── api-reference.md
-│   └── examples.md
-└── scripts/
-    ├── validate.py        # Executed, not loaded into context
-    └── helper.sh
-```
+    skill-name/
+    ├── SKILL.md                # Entry point (≤200 lines)
+    ├── references/
+    │   ├── detailed-guide.md   # Loaded only when needed
+    │   ├── api-reference.md
+    │   └── examples.md
+    └── scripts/
+        ├── validate.py         # Executed, not loaded into context
+        └── helper.sh
 
 ---
 
